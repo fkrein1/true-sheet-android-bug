@@ -1,6 +1,14 @@
-# Welcome to your Expo app 👋
+# StickerSmash - Expo 52 Template with Prebuild
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is an [Expo](https://expo.dev) template project based on Expo SDK 52 with prebuild configuration, created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app). This template is designed to make maintenance easier for project maintainers.
+
+## Known Issues
+
+There's an issue with `@lodev09/react-native-true-sheet` where TextInput components don't focus properly when using Expo SDK 52 and React Native 0.76 on Android. Thanks to the maintainer for this great package - hoping this can be fixed in a future update.
+
+## For Maintainers
+
+This template includes prebuild configurations to simplify the development and maintenance process. The project structure follows Expo's recommended practices for easier updates and maintenance.
 
 ## Get started
 
@@ -35,16 +43,18 @@ npm run reset-project
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+## Maintenance Resources
 
-To learn more about developing your project with Expo, look at the following resources:
+For maintainers working with this Expo 52 template, here are helpful resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- [Expo documentation](https://docs.expo.dev/): Reference for fundamentals and advanced topics with [guides](https://docs.expo.dev/guides).
+- [Expo prebuild documentation](https://docs.expo.dev/workflow/prebuild/): Learn about the prebuild process and how to customize native code.
+- [Expo config plugins](https://docs.expo.dev/guides/config-plugins/): Understand how to modify native code without ejecting.
+- [Expo updates](https://docs.expo.dev/eas-update/introduction/): Learn how to push updates to your app without going through app stores.
 
-## Join the community
+## Community Support
 
-Join our community of developers creating universal apps.
+Get help from the Expo community when maintaining this project:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo on GitHub](https://github.com/expo/expo): View the open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions about maintenance issues.
